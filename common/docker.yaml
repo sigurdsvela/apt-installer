@@ -1,0 +1,5 @@
+label: Docker
+ckey: https://download.docker.com/linux/ubuntu/gpg
+repo: "deb [arch=amd64] https://download.docker.com/linux/ubuntu zesty stable"
+packages: 
+    - docker-ce

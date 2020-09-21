@@ -1,0 +1,6 @@
+label: Github CLI
+key: C99B11DEB97541F0
+keyserver: keyserver.ubuntu.com
+repo: https://cli.github.com/packages
+packages:
+  - gh

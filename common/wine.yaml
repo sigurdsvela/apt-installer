@@ -1,0 +1,5 @@
+label: Wine
+ckey: https://dl.winehq.org/wine-builds/winehq.key
+repo: deb https://dl.winehq.org/wine-builds/ubuntu/ bionic main
+packages:
+    - --install-recomends winehq-stable
