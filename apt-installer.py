@@ -3,7 +3,7 @@ import yaml
 from pathlib import Path
 
 cwd = os.getcwd()
-dir_path = os.path.dirname(os.path.realpath(__file__))
+dir_path = Path(os.path.dirname(os.path.realpath(__file__)))
 
 # - Apt
 
