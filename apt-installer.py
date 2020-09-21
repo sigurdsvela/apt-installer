@@ -52,6 +52,6 @@ def install_apts(aptdir):
 			print(f"- Done ({label})")
 
 
-install(dir_path / "common")
-install(Path(sys.argv[1]))
+install_apts(dir_path / "common")
+install_apts(Path(sys.argv[1]))
 
